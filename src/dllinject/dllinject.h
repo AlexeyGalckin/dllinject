@@ -1,3 +1,3 @@
 #pragma once
 
-extern "C" int DoInject();
+extern "C" __declspec(dllexport) int DoInject();
